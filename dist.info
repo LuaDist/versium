@@ -1,0 +1,16 @@
+--- This file is part of LuaDist projecte
+
+name = "versium"
+version = "9.02.15"
+
+desc = "A versioned storage API for Lua"
+author = "Yuri Takhteyev"
+license = "MIT/X11"
+url = "http://spu.tnik.org/en/Versium"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"luafilesystem >= 1.3",
+	"diff == 8.06.15",
+}
